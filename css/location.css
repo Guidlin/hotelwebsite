@@ -1,0 +1,39 @@
+#location_title {
+    width: 100%;
+    height: 300px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url('../img/location/titlepicture.jpg');
+    background-blend-mode: multiply;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location_title h1 {
+    margin: 0;
+    font-family: 'Baskerville Old Face';
+    font-size: 75px;
+    color: white;
+
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#aboutglasgow {
+    display: flex;
+
+    margin-left: 20px;
+
+    width: 100%;
+}
+
+#descsection {
+    width: 40%;
+}
+

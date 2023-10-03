@@ -1,0 +1,64 @@
+#home_large_title {
+    width: 100%;
+    height: 620px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home_large_title h1 {
+    margin: 0;
+    font-family: 'Baskerville Old Face';
+    font-size: 100px;
+    color: white;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#home_large_title h2 {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+
+    text-align: center;
+}
+
+#home_room_section {
+    background-image: url('../img/home/room_section_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 420px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 50px;
+}
+
+#home_room_content {
+    margin-bottom: 150px;
+}
+#home_room_section h2 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#home_room_section p {
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 45%;
+}

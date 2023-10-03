@@ -1,0 +1,40 @@
+.header {
+    display: flex; 
+    background-color: #E7E6E6;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header li {
+    display: inline;
+    float: left;
+}
+
+.header a {
+    display: block;
+    text-align: center;
+    
+    color: black;
+    text-decoration: none;
+
+    padding: 20px 34px;
+}
+
+.header a:hover {
+    background-color: grey;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#logo {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}

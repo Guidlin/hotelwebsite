@@ -1,0 +1,25 @@
+* {
+    font-family: 'Gadugi';
+}
+
+/* Buttons */
+
+.white_button {
+    background: linear-gradient(90deg, rgb(71, 71, 71), transparent) #287eb8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+    font-family: Gadugi;
+    font-size: 24px;
+
+    text-decoration: none;
+
+    padding: 10px;
+
+    transition: background .25s ease-out;
+}
+
+.white_button:hover {
+    background: linear-gradient(90deg, rgb(71, 71, 71), transparent) #73b8e9;
+}
